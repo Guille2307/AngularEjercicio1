@@ -1,0 +1,18 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #202020;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  height: 100px;
+  & a {
+    font-family: impact;
+    text-decoration: none;
+    color: white;
+  }
+  & a:hover {
+    font-size: 1.5rem;
+    color: #e2001a;
+  }
+}

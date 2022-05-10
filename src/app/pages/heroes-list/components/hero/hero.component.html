@@ -1,0 +1,12 @@
+<div
+  class="hero-container"
+  (click)="opacity()"
+  *ngIf="hero"
+  [ngClass]="{
+    Opacity: hero.isActive
+  }"
+>
+  <img [src]="hero.img" alt="#" />
+  <p>{{ hero.hero }}</p>
+  <p>{{ hero.name }}</p>
+</div>

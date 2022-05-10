@@ -1,0 +1,10 @@
+<div class="hero-main">
+  <app-hero
+    *ngFor="let hero of heroes"
+    (upDate)="OnSelect()"
+    [hero]="hero"
+  ></app-hero>
+</div>
+<div class="hero-count__container">
+  <p class="hero-count">Active heroes : {{ heroCount }}</p>
+</div>

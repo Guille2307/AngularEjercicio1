@@ -1,0 +1,20 @@
+.hero-container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  background-color: #202020;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+
+  & img {
+    max-width: 250px;
+  }
+  & p {
+    font-family: "impact";
+    padding: 0.2rem;
+  }
+}
+.Opacity {
+  opacity: 0.3;
+}

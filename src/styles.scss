@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+::after ::before {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+body {
+  font-family: "Yellowtail", cursive;
+  background-color: black;
+}
